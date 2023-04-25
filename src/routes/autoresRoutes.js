@@ -4,8 +4,8 @@ import autoresController from "../controllers/autoresController.js";
 const router = express.Router();
 
 router.get("/autores", autoresController.listarAutores);
-router.get("/autores/:id", autoresController.listarAutor);
-router.post("/autores", autoresController.cadastrarAutores);
+router.get("/autores/:id", autoresController.listarAutorPorId);
+router.post("/autores", autoresController.cadastrarAutor);
 router.put("/autores/:id", autoresController.atualizarAutor);
 router.delete("/autores/:id", autoresController.excluirAutor);
 
