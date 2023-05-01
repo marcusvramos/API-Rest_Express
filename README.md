@@ -3,13 +3,9 @@
 ### Node.js Course: Rest API with Express and MongoDB - Alura
 #### **Development of a CRUD for "Alura Bookstore"**
 
--  Creation
-
--  Reading
-
--  Update
-
-- Exclusion of books from the Database
+- Creation, Reading, Update and Exclusion of books from the Database
+- Advanced filters, pagination and Middlewares 
+- Advanced error handling
 
 #### **What was used?**
 
